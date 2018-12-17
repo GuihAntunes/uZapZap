@@ -1,7 +1,8 @@
-package com.guihantunes.uzapzap
+package com.guihantunes.uzapzap.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.guihantunes.uzapzap.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
