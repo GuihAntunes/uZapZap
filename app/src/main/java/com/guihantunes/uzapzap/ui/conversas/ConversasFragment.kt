@@ -8,17 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.guihantunes.uzapzap.R
+import com.guihantunes.uzapzap.ui.base.BaseFragment
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- *
- */
-class ConversasFragment : Fragment() {
+class ConversasFragment : BaseFragment() {
+    override fun getTitulo(): Int {
+        return R.string.tab_conversa
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
